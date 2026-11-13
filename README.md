@@ -15,7 +15,7 @@ SpendWise is a simple budget tracker. It collects income and expenses using prom
 - Visibility: Public
 
 ## Live Netlify Website URL
-https://spendwise-budget-tracker.netlify.app
+https://mohamedspendwise-budget-tracker.netlify.app
 
 ## Deployment Process Summary
 1. Organized project files (index.html, style.css, script.js).
