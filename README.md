@@ -1,19 +1,37 @@
-# SpendWise - JavaScript Foundation
+# SpendWise
 
-SpendWise is a lightweight personal finance web application designed to help users calculate and monitor their monthly budget and spending.
+## Project Description
+SpendWise is a simple budget tracker. It collects income and expenses using prompts, calculates the balance, and displays the result on the page.
 
-## Application Purpose
-SpendWise collects income and expense inputs from users, performs automated budget calculations, and logs a clear summary statement in the browser developer console.
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- Git and GitHub
+- Netlify
 
-## JavaScript Concepts Implemented
-- **Variables & Data Types**: Stored numerical financial inputs, strings for descriptions, and object collections using `let` and `const`.
-- **User Input Collection**: Used `window.prompt()` to gather real-time data from the user and `parseFloat()` to convert text inputs into numeric types.
-- **Calculations & Logic**: Calculated total expenses and net remaining balance using basic arithmetic operators and `isNaN()` validation.
-- **Reusable Functions**: Structured code into modular functions (`collectUserInput`, `calculateTotalExpenses`, `calculateRemainingBalance`, `displayBudgetSummary`) to promote clean and maintainable logic.
-- **Console Output**: Leveraged `console.log()` with template literals to display formatted summary data.
+## GitHub Repository Information
+- Repository: https://github.com/mawal555888-bot/SpendWise
+- Visibility: Public
 
-## How to Run
-1. Clone or download this repository.
-2. Open `index.html` in any web browser.
-3. Respond to the prompt boxes with your financial figures.
-4. Open the Developer Tools console (`F12` or `Ctrl+Shift+I` / `Cmd+Option+I`) to view the budget breakdown.
+## Live Netlify Website URL
+https://spendwise-budget-tracker.netlify.app
+
+## Deployment Process Summary
+1. Organized project files (index.html, style.css, script.js).
+2. Created a public GitHub repository and pushed the project.
+3. Connected the repository to Netlify and deployed.
+4. Changed the site name to a meaningful name.
+5. Made a visible change, pushed it, and confirmed Netlify redeployed automatically.
+6. Tested the live site: page, styles, and script all load.
+
+## Challenges Encountered During Deployment
+- Connecting Git to the correct GitHub account.
+- Understanding how Netlify connects to GitHub.
+- Choosing the correct publish settings for a static site.
+
+## Lessons Learned
+- How Git and GitHub store and share code.
+- How Netlify deploys a site from a repository.
+- Every push to GitHub triggers an automatic redeploy.
+- Testing the live site is as important as testing locally.
